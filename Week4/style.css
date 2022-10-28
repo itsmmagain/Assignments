@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+main{
+    margin: auto;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    text-align: left;
+    padding: 2em;
+}
+.sedans{
+    background-color: hsl(30deg 77% 52%);
+    padding: 20px;
+}
+.suvs{
+    background-color: hsl(185deg 98% 23%);
+}
+.luxury{
+    background-color: hsl(179deg 100% 13%);
+}
+img
+   padding: 2em;
+   padding-bottom: 0px;
+}
+h2{
+    padding-bottom: 2em;
+    padding-top: 0px
+  padding-left: 2em;
+}
+p{
+    padding: 2em;
+}
