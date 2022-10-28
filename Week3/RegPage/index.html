@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Register</title>
+</head>
+
+<body>
+  <div>
+    <h1>MMCODEZ</h1>
+  </div>
+  <div class="nav-bar">
+    <a href="Portfolio.html" class="nav">Home</a>
+    <a href="#aboutme" class="nav">About</a>
+    <a href="contacts.html" class="nav">Contact</a>
+    <a href="index.html" class="nav">Register/Login</a>
+  </div>
+  <div>
+    <h2>
+      REGISTER FOR MMCODEZ
+    </h2>
+  </div>
+  <div>
+    <div>
+      <h3>Fill this form to create an account</h3>
+    </div>
+    <div>
+      <form action="">
+        <table>
+          <tr>
+            <td><label for="firstname">First Name:</label></td>
+            <td><input type="text" name="firstname" required placeholder="John"></td>
+          </tr>
+          <tr>
+            <td><label for="lastname">Last Name:</label></td>
+            <td><input type="text" name="lastname" required placeholder="Brown"></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email Address:</label></td>
+            <td><input type="email" name="email" required placeholder="mmcodez@gmail.com"></td>
+          </tr>
+          <tr>
+            <td><label for="phonenumber">Phone Number:</label></td>
+            <td><input type="tel" name="phonenumber" required placeholder="09012357694"></td>
+          </tr>
+          <tr>
+            <td><label for="password">Password:</label></td>
+            <td><input type="password" name="password" id="password" required></td>
+          </tr>
+          <tr>
+            <td><label for="confirmpassword">Confirm Password:</label></td>
+            <td><input type="password" name="confirmpassword" id="password" required></td>
+          </tr>
+          <tr>
+            <td>
+              <label for="gender">Gender</label>
+            </td>
+            <td>
+              <select name="gender" id="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="dob">Date Of Birth</label></td>
+            <td><input type="date" name="dob" id="dob" required></td>
+          </tr>
+          <tr>
+            <td><label for="color">Favorite Color</label></td>
+            <td><input type="color" name="color"></td>
+          </tr>
+        </table>
+        <a href="success.html"><input type="submit" value="Create Account"></a>
+      </form>
+      <hr>
+    </div>
+    <div>
+      <div>
+        <p><a href="https://www.google.com/signin" target="_blank">Sign in with Google</a></p>
+      </div>
+      <div>
+        <p><a href="https://www.facebook.com/login" target="_blank">Sign in with Facebook</a></p>
+      </div>
+      <div>
+        <p>Already have an account?<a href="login.html" target="_blank">Login</a></p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

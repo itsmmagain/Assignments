@@ -1,0 +1,49 @@
+body{
+    background-color: beige;
+}
+.mmcodez{
+    font-size: 60px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 0px;
+}
+.nav-bar{
+    text-align: center;
+    margin-top: 0px;
+}
+.nav{
+    padding: 20px;
+    color: rgb(82, 81, 81);
+    font-size: medium;
+}
+.register,.login{
+    text-align: center;
+}
+.container{
+    margin: auto;
+    width: 50%;
+}
+.card{
+    width: 40%;
+}
+.google{
+    text-align: center;
+    margin: 0px;
+        
+}
+.box{ 
+
+}
+a:link{
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(42, 42, 139);
+}
+input{
+    background-color: darkgray;
+    border-radius: 2px;
+
+}
